@@ -1,0 +1,6 @@
+[console_scripts]
+shoot = shotalizer.app:main
+
+[shotalizer.main]
+crop = shotalizer.commands.crop:CropCommand
+
