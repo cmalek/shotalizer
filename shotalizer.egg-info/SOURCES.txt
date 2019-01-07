@@ -3,7 +3,6 @@ CHANGES.txt
 LICENSE.txt
 MANIFEST.in
 requirements.txt
-setup.py
 shotalizer/__init__.py
 shotalizer/app.py
 shotalizer/exc.py

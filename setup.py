@@ -14,8 +14,8 @@ setup(name="shotalizer",
             'shoot = shotalizer.app:main'
         ],
         'shotalizer.main': [
+            'sheet = shotalizer.commands.crop:CropSheetCommand',
             'crop = shotalizer.commands.crop:CropCommand',
         ],
-    },
-
+      },
 )

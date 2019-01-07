@@ -3,4 +3,5 @@ shoot = shotalizer.app:main
 
 [shotalizer.main]
 crop = shotalizer.commands.crop:CropCommand
+sheet = shotalizer.commands.crop:CropSheetCommand
 

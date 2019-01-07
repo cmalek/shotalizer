@@ -6,7 +6,7 @@ class BaseCommand(Command):
     "Base command class, adding some typical arguments"
 
     def get_parser(self, prog_name):
-        parser = super(BaseCommand, self).get_parser(prog_name)
+        parser = super().get_parser(prog_name)
         parser.add_argument('--cropdir', default=".crops", help="directory to which to write crops")
         return parser
 
